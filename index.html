@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azienda Agricola Pasini di Riccardo Pasini</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+        @font-face {
+            font-family: moonflower;
+            src: url(MoonFlower.ttf);
+        }
+        *, html {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            color: white;
+            background-color: rgb(0 80 41);
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        main {
+            display: grid;
+            place-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+        .container {
+            max-width: 45em;
+            text-align: center;
+        }
+        h1 {
+            display:block;
+            height: 11em;
+            background: url(logo.svg) no-repeat center center;
+            margin: 1em;
+        }
+        h1 span {
+            display: none;
+        }
+        h2 {
+            font-family: moonflower;
+            font-size: 2.8em;
+            margin: 0.5em auto;
+            padding: 0 1.5em;
+        }
+        h3 {
+            font-weight: 700;
+            margin: 1em 0 0.5em 0;
+        }
+        p {
+            padding: 0.5em 1em;
+        }
+        a {
+            color: rgb(255, 255, 255)
+        }
+        dl {
+            margin: 0 auto 1em auto;
+            display: inline-block;
+            overflow: hidden;
+            text-align: left;
+        }
+        dt {
+            float: left;
+            clear: left;
+            text-transform: uppercase;
+        }
+        dt::after {
+            content: ":";
+        }
+        dd {
+            margin: 0 0 0 7em;
+        }
+        address {
+            line-height: 0.5em;
+            margin-bottom: 2em;
+            font-style: normal;
+        }
+        .social {
+            padding: 1.5em 1em;
+            width: 2em;
+            height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1><span>Agricola Riccardo Pasini</span></h1>
+            <h2>Vendita di prodotti orticoli di stagione a km 0 e preparati con metodi naturali</h2>
+            <p>Nel cuore del Parco Agricolo sud di Milano, sull'antica strada che collega i comuni di Cisliano e Bareggio, sorge immersa tra le campagne Cascina Varesina.<br>In questo luogo tramandato da generazioni, è nata la passione di Riccardo per i prodotti della sua terra.</p>
+            <p>In cascina è possibile acquistare conserve, agrodolci, sottoli, mostarde e confetture preparate di Riccardo e altri prodotti di cascine limitrofe: garanzia di freschezza e qualità.<br>Con i nostri prodotti confezioniamo cesti regalo per parenti e amici, perfetti anche come regali aziendali.</p>
+            
+            <h3>Orari cascina</h3>
+            <dl>
+                <dt>Mercoledì</dt>
+                <dd>dalle 8.00 alle 12.30, dalle 15.00 alle 19.30</dd>
+                <dt>Sabato</dt>
+                <dd>dalle 8.00 alle 12.30, dalle 14.00 alle 19.00</dd>
+                <dt>Domenica</dt>
+                <dd>dalle 8.30 alle 12.30</dd>
+            </dl>
+            <address>
+                <h3>Ordini</h3>
+                <p>Riccardo: <a class="whatsapp" href="tel:+39 3348499536">+39 334.8499536</a> - <a href="mailto:agricolapasinikm0@gmail.com">agricolapasinikm0@gmail.com</a></p>
+                <p>Cascina Varesina - 20046 Cisliano (MI)</p>
+
+                <a href="https://www.instagram.com/agricolapasini"><img src="instagram.svg" alt="Instagram" class="social"/></a>
+                <a href="https://www.facebook.com/aziendapasini"><img src="facebook.svg" alt="Facebook" class="social"/></a>
+            </address>
+        </div>
+    </main>
+</body>
+</html>
